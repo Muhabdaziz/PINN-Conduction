@@ -2,7 +2,11 @@
 
 This code is a part of my undergraduate thesis work at Institut Teknologi Bandung (see https://digilib.itb.ac.id/index.php/gdl/view/65879/)
 
-In this work, we investigate the potential of physics-informed neural networks (PINNs) for solving both direct and inverse heat conduction problems. The PINN itself uses the universal function approximator, neural networks, combined with the underlying physics behind the analyzed phenomenon. The test cases cover constant, temperature-dependent, and spatially varying properties. In general, the results show that the developed model can solve direct heat conduction problems with a good degree of accuracy. For the inverse problem, the model can approximate the inverted parameter, such as thermal diffusivity, thermal conductivity, and heat generation, with limited measurement data.
+In this work, we investigate the potential of physics-informed neural networks (PINNs) for solving both direct and inverse heat conduction problems. The PINN itself uses the universal function approximator, neural networks, combined with the underlying physics behind the analyzed phenomenon. 
+
+Direct problems mean that we are inferring the temperature distribution with given parameters and conditions. Whereas inverse problems mean that we want to predict one or more parameter(s) with given limited measurements of temperature in the domain and boundary, and simultaneously infer the temperature distribution. 
+
+The test cases cover constant, temperature-dependent, and spatially varying properties. In general, the results show that the developed model can solve direct heat conduction problems with a good degree of accuracy. For the inverse problem, the model can approximate the inverted parameter, such as thermal diffusivity, thermal conductivity, and heat generation, with limited measurement data.
 
 Many thanks to my supervisors: 
 Dr. Pramudita S. Palar, 
